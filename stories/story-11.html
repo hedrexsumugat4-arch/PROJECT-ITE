@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Title 11 | Kuwentuhan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Literata:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div class="progress-track" aria-hidden="true"><div class="progress-bar" id="progress-bar"></div></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="../index.html">Kuwentuhan</a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../genres.html">Genres</a></li>
+          <li><a href="../about.html">About</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch dark or light mode">Dark mode</button>
+    </div>
+  </header>
+
+  <main class="container story-page">
+    <article class="story">
+      <header class="story-head">
+        <img class="story-cover" src="../images/covers/cover-11.webp" alt="Cover of Book Title 11">
+        <div class="story-info">
+          <span class="genre-badge">Horror</span>
+          <h1>Room 13</h1>
+          <p class="author">by Hedrex</p>
+          <div class="story-actions">
+            <button class="btn btn-outline like-btn" id="like-btn" type="button" aria-pressed="false" data-story="11">Like <span class="like-count" id="like-count">0</span></button>
+            <button class="btn btn-outline" id="synopsis-toggle" type="button" aria-expanded="true" aria-controls="synopsis">Hide synopsis</button>
+          </div>
+        </div>
+      </header>
+
+      <section class="synopsis" id="synopsis">
+        <h2>Synopsis</h2>
+        <p>May silid sa lumang paaralan na ipinagbabawal pasukin ng mga estudyante.</p>
+      </section>
+
+      <section class="chapter">
+        <h2 class="chapter-title">Chapter 1: The Locked Door</h2>
+        
+        <div class="reading-area" id="reading-area">
+          <p>Sabi ng mga kaklase ko, walang Room 13 sa aming building. Pero tuwing alas-sais ng gabi, may naririnig akong kumakatok mula sa pintong walang numero.
+
+Isang gabi, sinubukan kong buksan iyon. Kusang bumukas ang pinto, at nakita ko ang isang classroom na puno ng lumang upuan.
+
+Sa pisara, may nakasulat na pangalan ko.
+
+Biglang sumara ang pinto sa likod ko. Paglingon ko sa pisara, nadagdagan ang nakasulat: “Welcome back.”</p>
+        </div>
+      </section>
+
+      <nav class="story-pager" aria-label="Story navigation">
+        <a class="btn btn-outline" href="story-10.html">Previous story</a>
+        <a class="btn btn-outline" href="../index.html">Back to library</a>
+        <a class="btn btn-outline" href="story-12.html">Next story</a>
+      </nav>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Kuwentuhan &copy; 2026. ITE 1 Project: Storybook.</p>
+    </div>
+  </footer>
+  <script src="../js/script.js"></script>
+</body>
+</html>

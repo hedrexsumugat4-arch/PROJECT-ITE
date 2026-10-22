@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Title 03 | Kuwentuhan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Literata:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div class="progress-track" aria-hidden="true"><div class="progress-bar" id="progress-bar"></div></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="../index.html">Kuwentuhan</a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../genres.html">Genres</a></li>
+          <li><a href="../about.html">About</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch dark or light mode">Dark mode</button>
+    </div>
+  </header>
+
+  <main class="container story-page">
+    <article class="story">
+      <header class="story-head">
+        <img class="story-cover" src="../images/covers/cover-03.webp" alt="Cover of Book Title 03">
+        <div class="story-info">
+          <span class="genre-badge">Romance</span>
+          <h1>Letters I Never Sent</h1>
+          <p class="author">by Hedrex</p>
+          <div class="story-actions">
+            <button class="btn btn-outline like-btn" id="like-btn" type="button" aria-pressed="false" data-story="03">Like <span class="like-count" id="like-count">0</span></button>
+            <button class="btn btn-outline" id="synopsis-toggle" type="button" aria-expanded="true" aria-controls="synopsis">Hide synopsis</button>
+          </div>
+        </div>
+      </header>
+
+      <section class="synopsis" id="synopsis">
+        <h2>Synopsis</h2>
+        <p>Isang estudyante ang nagsusulat ng liham para sa kanyang matalik na kaibigan ngunit hindi kailanman nagkaroon ng lakas ng loob na ibigay ang mga ito.</p>
+      </section>
+
+      <section class="chapter">
+        <h2 class="chapter-title">Chapter 1: The Last Letter</h2>
+        
+        <div class="reading-area" id="reading-area">
+          <p>Sa loob ng kanyang drawer, may dalawampung liham si Marco para kay Sophie. Bawat liham ay may isang bagay na hindi niya masabi nang harapan: mahal niya ito.
+
+Nang malaman niyang lilipat na si Sophie sa ibang bansa, nagpasya siyang ibigay ang huling liham.
+
+“Bakit ngayon mo lang sinabi?” tanong ni Sophie matapos basahin iyon.
+
+Napayuko si Marco. Hindi niya alam kung huli na ang lahat, pero sa unang pagkakataon, nasabi na niya ang tunay niyang nararamdaman.</p>
+        </div>
+      </section>
+
+      <nav class="story-pager" aria-label="Story navigation">
+        <a class="btn btn-outline" href="story-02.html">Previous story</a>
+        <a class="btn btn-outline" href="../index.html">Back to library</a>
+        <a class="btn btn-outline" href="story-04.html">Next story</a>
+      </nav>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Kuwentuhan &copy; 2026. ITE 1 Project: Storybook.</p>
+    </div>
+  </footer>
+  <script src="../js/script.js"></script>
+</body>
+</html>

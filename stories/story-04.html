@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Title 04 | Kuwentuhan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Literata:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div class="progress-track" aria-hidden="true"><div class="progress-bar" id="progress-bar"></div></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="../index.html">Kuwentuhan</a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../genres.html">Genres</a></li>
+          <li><a href="../about.html">About</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch dark or light mode">Dark mode</button>
+    </div>
+  </header>
+
+  <main class="container story-page">
+    <article class="story">
+      <header class="story-head">
+        <img class="story-cover" src="../images/covers/cover-04.webp" alt="Cover of Book Title 04">
+        <div class="story-info">
+          <span class="genre-badge">Romance</span>
+          <h1>Seven Days with You</h1>
+          <p class="author">by Hedrex</p>
+          <div class="story-actions">
+            <button class="btn btn-outline like-btn" id="like-btn" type="button" aria-pressed="false" data-story="04">Like <span class="like-count" id="like-count">0</span></button>
+            <button class="btn btn-outline" id="synopsis-toggle" type="button" aria-expanded="true" aria-controls="synopsis">Hide synopsis</button>
+          </div>
+        </div>
+      </header>
+
+      <section class="synopsis" id="synopsis">
+        <h2>Synopsis</h2>
+        <p>Sa loob ng pitong araw na bakasyon, natutuhan ng dalawang taong magkaiba ang pangarap na pahalagahan ang bawat sandali.</p>
+      </section>
+
+      <section class="chapter">
+        <h2 class="chapter-title">Chapter 1: Day One</h2>
+        
+        <div class="reading-area" id="reading-area">
+          <p>Hindi gustong magbakasyon ni Liam sa probinsya. Para sa kanya, sayang lang ang isang linggong puwede niyang ilaan sa paglalaro. Ngunit nang makilala niya si Ava sa tabing-dagat, nagbago ang lahat.
+
+Ipinakita ni Ava sa kanya ang mga lugar na hindi makikita sa internet: ang maliit na tindahan ng taho, ang lumang parola, at ang paborito niyang lugar para panoorin ang paglubog ng araw.
+
+Sa ikapitong araw, tinanong siya ni Ava, “Kapag umuwi ka, maaalala mo pa ba ako?”
+
+“Kaya nga ako babalik,” sagot ni Liam.</p>
+        </div>
+      </section>
+
+      <nav class="story-pager" aria-label="Story navigation">
+        <a class="btn btn-outline" href="story-03.html">Previous story</a>
+        <a class="btn btn-outline" href="../index.html">Back to library</a>
+        <a class="btn btn-outline" href="story-05.html">Next story</a>
+      </nav>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Kuwentuhan &copy; 2026. ITE 1 Project: Storybook.</p>
+    </div>
+  </footer>
+  <script src="../js/script.js"></script>
+</body>
+</html>

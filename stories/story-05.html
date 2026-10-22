@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Title 05 | Kuwentuhan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Literata:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div class="progress-track" aria-hidden="true"><div class="progress-bar" id="progress-bar"></div></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="../index.html">Kuwentuhan</a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../genres.html">Genres</a></li>
+          <li><a href="../about.html">About</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch dark or light mode">Dark mode</button>
+    </div>
+  </header>
+
+  <main class="container story-page">
+    <article class="story">
+      <header class="story-head">
+        <img class="story-cover" src="../images/covers/cover-05.webp" alt="Cover of Book Title 05">
+        <div class="story-info">
+          <span class="genre-badge">Sci-Fi</span>
+          <h1>Across the Window</h1>
+          <p class="author">by Hedrex</p>
+          <div class="story-actions">
+            <button class="btn btn-outline like-btn" id="like-btn" type="button" aria-pressed="false" data-story="05">Like <span class="like-count" id="like-count">0</span></button>
+            <button class="btn btn-outline" id="synopsis-toggle" type="button" aria-expanded="true" aria-controls="synopsis">Hide synopsis</button>
+          </div>
+        </div>
+      </header>
+
+      <section class="synopsis" id="synopsis">
+        <h2>Synopsis</h2>
+        <p>Magkapitbahay sina Noah at Claire, ngunit ang kanilang bintana lamang ang nagiging tulay ng kanilang pagkakaibigan.</p>
+      </section>
+
+      <section class="chapter">
+        <h2 class="chapter-title">Chapter 1: Lights Across the Street</h2>
+       
+        <div class="reading-area" id="reading-area">
+          <p>Tuwing alas-diyes ng gabi, nakikita ni Noah ang ilaw sa bintana ng kabilang bahay. Isang gabi, kumaway siya sa babaeng laging nakaupo roon. Nagulat siya nang kumaway din ito.
+
+Kinabukasan, nagtaas si Claire ng papel na may nakasulat na, “What's your name?”
+
+Nagsimula silang mag-usap gamit ang mga papel at ngiti. Ngunit nang isang gabi ay hindi na bumukas ang bintana, saka lamang nalaman ni Noah na lilipat na pala ang pamilya ni Claire.</p>
+        </div>
+      </section>
+
+      <nav class="story-pager" aria-label="Story navigation">
+        <a class="btn btn-outline" href="story-04.html">Previous story</a>
+        <a class="btn btn-outline" href="../index.html">Back to library</a>
+        <a class="btn btn-outline" href="story-06.html">Next story</a>
+      </nav>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Kuwentuhan &copy; 2026. ITE 1 Project: Storybook.</p>
+    </div>
+  </footer>
+  <script src="../js/script.js"></script>
+</body>
+</html>

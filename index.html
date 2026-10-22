@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | KATHA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Figtree:wght@400;500;600&family=Literata:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">KATHA</a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="genres.html">Genres</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch dark or light mode">Dark mode</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-sky" id="hero">
+      <canvas id="sky" aria-hidden="true"></canvas>
+      <div class="container">
+        <h1><span>Mga</span> <span>KATHAng</span> <span>isip.</span></h1>
+        <p class="hero-text">30 maiikling kuwento mula sa iba't ibang genre. Pumili ng libro at basahin ang buong chapter.</p>
+        <a class="btn" href="#stories">Simulan ang pagbabasa</a>
+      </div>
+    </section>
+
+    <div class="ribbon" aria-hidden="true"><div class="ribbon-track" id="ribbon"></div></div>
+
+    <section class="container shelf" id="stories">
+      <h2>All stories</h2>
+      <div class="filters" id="filters" role="group" aria-label="Filter by genre"></div>
+      <input class="search-box" id="search" type="search" placeholder="Maghanap ng kuwento…" aria-label="Maghanap ng kuwento">
+      <div class="book-grid" id="grid"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>KATHA &copy; 2026. ITE 1 Project: Storybook.</p>
+    </div>
+  </footer>
+   <script src="js/script.js"></script>
+  <script src="js/books.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>
